@@ -1,0 +1,20 @@
+.welcome-screen { background: #f7f8f9; }
+
+.welcome-hero {
+  flex: 1;
+  background: #ebebec;
+  min-height: 0;
+}
+
+.welcome-content {
+  padding: 28px 24px 48px;
+  background: #f7f8f9;
+  flex-shrink: 0;
+}
+
+.welcome-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 26px;
+}

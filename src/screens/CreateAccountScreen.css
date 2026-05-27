@@ -1,0 +1,74 @@
+.signup-screen { background: #f7f8f9; }
+
+.signup-content {
+  padding: 52px 24px 0;
+  flex-shrink: 0;
+}
+
+.signup-content .screen-title {
+  margin-bottom: 28px;
+}
+
+.signup-form { display: flex; flex-direction: column; }
+
+.agency-label {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 12px;
+}
+
+.required { color: #e74c3c; }
+
+.radio-group {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.radio-option {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.radio-option input[type='radio'] {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.radio-custom {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #bbb;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  transition: border-color 0.15s;
+}
+
+.radio-option input[type='radio']:checked + .radio-custom {
+  border-color: #6c52e3;
+}
+
+.radio-option input[type='radio']:checked + .radio-custom::after {
+  content: '';
+  width: 10px;
+  height: 10px;
+  background: #6c52e3;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.radio-text { font-size: 14px; color: #444; }
+
+.signup-spacer { flex: 1; min-height: 24px; }
+
+.signup-footer {
+  padding: 0 24px 40px;
+  flex-shrink: 0;
+}

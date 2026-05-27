@@ -1,0 +1,8 @@
+.login-screen { background: #f7f8f9; }
+
+.login-content {
+  padding: 52px 24px 0;
+  flex-shrink: 0;
+}
+
+.login-spacer { flex: 1; }
